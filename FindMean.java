@@ -1,7 +1,7 @@
 public class FindMean {
 
     public static double findMean(double[] nums) {
-        double mean = findSum(nums) / nums.length;
+        double mean = findSum(nums) / (double) nums.length;
         return mean;
     }
 
@@ -11,7 +11,7 @@ public class FindMean {
         for(int i=0; i<nums.length; i++) {
             sum += nums[i];
         }
-        return 0.0;
+        return sum;
     }
     
 }
